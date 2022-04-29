@@ -1,7 +1,6 @@
 {
   "ovpn_file":[
     {"id":0,"file":"
-     dev tun
      proto tcp 
      remote 219.100.37.56 443 
      cipher AES-128-CBC
@@ -12,7 +11,7 @@
      persist-tun
      client
      verb 3
-     #auth-user-pass
+     auth-user-pass
      
 <ca>
 -----BEGIN CERTIFICATE-----
@@ -63,7 +62,7 @@ jjxDah2nGN59PRbxYvnKkKj9
      persist-tun
      client
      verb 3
-     #auth-user-pass
+     auth-user-pass
      
 <ca>
 -----BEGIN CERTIFICATE-----
